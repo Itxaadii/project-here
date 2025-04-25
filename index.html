@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GitHub User Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <h1>GitHub User Details</h1>
+    <form id="user-form">
+        <input type="text" id="username" placeholder="Enter GitHub username" required />
+        <button type="submit" id="fetch-btn">Fetch</button>
+    </form>
+    <div id="error-message"></div>
+    <div id="user-details" style="display:none;">
+        <img id="avatar" src="" alt="User Avatar" />
+        <h2 id="name"></h2>
+        <p id="login"></p>
+        <p id="bio"></p>
+        <p><strong>Followers:</strong> <span id="followers"></span></p>
+        <p><strong>Following:</strong> <span id="following"></span></p>
+        <p><strong>Public Repos:</strong> <span id="public_repos"></span></p>
+        <p><a id="profile-link" href="" target="_blank" rel="noopener">View Profile on GitHub</a></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
