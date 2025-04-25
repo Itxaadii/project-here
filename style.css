@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    background-color: #f0f6fc;
+    color: #1a2733;
+}
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+#user-form {
+    max-width: 400px;
+    margin: 1rem auto;
+    display: flex;
+    gap: 0.5rem;
+}
+#username {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+#fetch-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+#fetch-btn:hover {
+    background-color: #1e40af;
+}
+#user-details {
+    max-width: 320px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(37, 99, 235, 0.10), 0 1.5px 6px rgba(26, 39, 51, 0.06);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#user-details img {
+    border-radius: 50%;
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 0.7rem;
+}
+#user-details h2, #login {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #2563eb;
+    font-weight: bold;
+}
+#user-details p {
+    text-align: center;
+    margin: 0.25rem 0;
+}
+#user-details a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+}
+#user-details a:hover {
+    text-decoration: underline;
+}
+
+
+}
+#error-message {
+    color: #dc2626;
+
+    margin-top: 1rem;
+}
